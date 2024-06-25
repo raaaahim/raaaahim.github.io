@@ -12,7 +12,9 @@ html, body { background: white; }
     overflow-wrap: break-word;
   }
 
-  
+  .theme {
+    text-align: left;
+  }
 
   header {
     font-size: 1.5em;
