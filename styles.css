@@ -1,8 +1,8 @@
 html, body { background: white; }
   
-  html { height: 100%; }
+html { height: 100%; }
   
-  body {
+body {
     color: black;
     font-family: monospace;
     font-size: 16px;
@@ -10,72 +10,72 @@ html, body { background: white; }
     margin: 0;
     min-height: 100%;
     overflow-wrap: break-word;
-  }
+}
 
-  .theme {
-    text-align: left;
-  }
+.theme {
+    cursor: pointer;
+}
 
-  header {
+header {
     font-size: 1.5em;
-  }
+}
 
-  .post-meta { text-align: right; }
+.post-meta { text-align: right; }
   
-  h2, h3, h4, h5, h6 { margin-top: 3rem; }
+h2, h3, h4, h5, h6 { margin-top: 3rem; }
   
-  hr { margin: 2rem 0; }
+hr { margin: 2rem 0; }
   
-  p { margin: 1rem 0; }
+p { margin: 1rem 0; }
   
-  li { margin: 0.4rem 0; }
+li { margin: 0.4rem 0; }
   
-  *:target { background: yellow; }
+*:target { background: yellow; }
   
-  .w {
+.w {
     max-width: 640px;
     margin: 0 auto;
     padding: 4rem 2rem;
-  }
+}
   
-  hr {
+hr {
     text-align: center;
     border: 0;
   
     &:before { content: '--------' }
     &:after { content: attr(data-content) '--------' }
-  }
+}
   
-  table { width: 100%; }
+table { width: 100%; }
   
-  table, th, td {
+table, th, td {
     border: thin solid black;
     border-collapse: collapse;
     padding: 0.4rem;
-  }
+}
   
-  code {
+code {
     color: white;
     background: black;
-  }
+}
   
-  div.highlighter-rouge code {
+div.highlighter-rouge code {
     display: block;
     overflow-x: auto;
     white-space: pre-wrap;
     padding: 1rem;
-  }
+}
   
-  blockquote {
+blockquote {
     font-style: italic;
     border: thin solid black;
     padding: 1rem;
   
     p { margin: 0; }
-  }
+}
   
-  img {
+img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
-  }
+}
