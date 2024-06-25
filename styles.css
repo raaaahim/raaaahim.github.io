@@ -79,3 +79,16 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+a:link {
+    color: #f9f910;
+}
+
+a:visited {
+    color: #a9e573;
+}
+
+a:active {
+    color: #10f9f9;
+}
+
