@@ -1,9 +1,30 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --text: white;
+        --background: black;
+        --link: #f9f910;
+        --link-visited: #a9e573;
+        --link-active: #10f9f9;
+    }
+}
+
+@media(prefers-color-scheme: light) {
+    :root {
+        --text: black;
+        --background: white;
+        --link: #7676f6;
+        --link-visited: #591f8d;
+        --link-active: '#ee0606';
+    }
+}
+
 html, body { background: white; }
   
 html { height: 100%; }
   
 body {
-    color: black;
+    color: var(--text);
+    background-color: var(--background);
     font-family: monospace;
     font-size: 16px;
     line-height: 1.4;
@@ -81,14 +102,14 @@ img {
 }
 
 a:link {
-    color: #f9f910;
+    color: var(--link);
 }
 
 a:visited {
-    color: #a9e573;
+    color: var(--link-visited);
 }
 
 a:active {
-    color: #10f9f9;
+    color: var(--link-active);
 }
 
