@@ -1,19 +1,20 @@
-var type = 0;
+var themeType = 0;
 
-var body = document.getElementById("body");
-var themeBtn = document.getElementById("theme");
+const body = document.getElementById("body");
+const themeBtn = document.getElementById("theme");
+
 
 function theme() {
-    type++;   
+    themeType++;   
+
+    window.localStorage.setItem("themePref", themeType);
     
-    if (type % 2 == 1) {
+    if (window.localStorage.getItem("themePref") % 2 == 1) {
         body.style.color = "white";
         body.style.background = "black";
-        themeBtn.innerHTML = "dark";
     } else {
         body.style.color = "black";
         body.style.background = "white";
-        themeBtn.innerHTML = "light";
     }
 }
 
